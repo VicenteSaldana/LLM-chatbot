@@ -1,0 +1,83 @@
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.usuario-msg {
+  text-align: right;
+  color: #333;
+  background-color: #d9edf7;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.bot-msg {
+  text-align: left;
+  color: #fff;
+  background-color: #5bc0de;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.consulta-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.send-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #5bc0de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #31b0d5;
+}
+
+.peliculas-container {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.peliculas-container h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.peliculas-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.peliculas-container li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
